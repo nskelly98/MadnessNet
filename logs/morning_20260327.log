@@ -1,0 +1,41 @@
+===== MORNING RUN START Fri 03/27/2026 16:39:24.39 ===== 
+INCREMENTAL INGEST: 2026-03-27 -> 2026-03-27
+[2026-03-27] done: inserted_games=0 team_rows=0 skipped=0 failed=0
+===================================
+DONE incremental ingest 2026-03-27 -> 2026-03-27
+Days with games: 1
+Inserted games=0, team_rows=0
+Skipped existing games=0
+Failed games=0
+===================================
+Rolling stats computed and written to team_rolling_stats.
+Rows: 47846
+Built model_games_enriched.
+Rows: 22058
+Date range: 2022-11-14 00:00:00 to 2026-03-26 00:00:00
+Pulled events: 20
+Inserted FanDuel spreads rows: 20
+pulled_at_utc: 2026-03-27T20:39:34Z
+Auto-mapped this run: 3
+Needs review this run: 0
+Low/unmapped this run: 2
+Totals -> total: 360 mapped: 360 needs_review: 0 unmapped: 0
+Logged to bet_recommendations: 4
+===================================
+DAILY BETS — Saved 4-Model Ensemble (RAW)
+Run: 2026-03-27T20:39:37Z
+Primary: ens4_saved_raw
+Weights: {'ridge': 0.302, 'random_forest': 0.114, 'xgb': 0.126, 'svm': 0.459}
+Threshold: 2.5
+MIN_GAMES: 8
+Caps: |pred| <= 40.0  |edge| <= 15.0
+MAX_BETS: 8000 MAX_UNITS_DAY (per date): 600.0
+Scored games: 4
+Bets placed: 2
+Threshold qualifiers (pre-caps): 2
+===================================
+Alabama Crimson Tide @ Michigan Wolverines | AWAY | date=2026-03-27 | line(H)=-9.5 | pred(H margin)=+1.0 | edge=-8.5 | stake=2.0u
+Tennessee Volunteers @ Iowa State Cyclones | HOME | date=2026-03-27 | line(H)=-3.5 | pred(H margin)=+6.4 | edge=+2.9 | stake=0.5u
+Posted Discord message chunk 1/1
+Discord report sent.
+===== MORNING RUN END Fri 03/27/2026 16:39:41.82 ===== 

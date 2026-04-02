@@ -1,0 +1,11 @@
+[
+  "delta_roll5_adj_em",
+  "delta_roll10_adj_em",
+  "delta_ewm_adj_em",
+  "delta_roll5_off_eff",
+  "delta_roll10_def_eff",
+  "delta_trend_adj_em",
+  "delta_adj_em_like",
+  "delta_sos_em_like",
+  "delta_luck_like"
+]

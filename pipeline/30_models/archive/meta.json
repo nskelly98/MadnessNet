@@ -1,0 +1,50 @@
+{
+  "trained_at_utc": "2026-03-12T14:02:43Z",
+  "n_rows": 21832,
+  "n_train": 17465,
+  "n_val": 4367,
+  "metrics": {
+    "ridge": {
+      "mae": 10.38998742361553,
+      "r2": 0.3465233680020048,
+      "best_params": {
+        "model__alpha": 100.0
+      }
+    },
+    "svm": {
+      "mae": 10.357575203340113,
+      "r2": 0.34534053773167683,
+      "best_params": {
+        "model__C": 10,
+        "model__epsilon": 0.05,
+        "model__gamma": "auto",
+        "model__kernel": "rbf"
+      }
+    },
+    "random_forest": {
+      "mae": 10.363770113602095,
+      "r2": 0.3492633640880941,
+      "best_params": {
+        "bootstrap": true,
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 600
+      }
+    },
+    "xgb": {
+      "mae": 10.326626777648926,
+      "r2": 0.3533695402304696,
+      "best_params": {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.02,
+        "max_depth": 3,
+        "n_estimators": 400,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0,
+        "subsample": 0.85
+      }
+    }
+  }
+}

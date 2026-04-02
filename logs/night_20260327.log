@@ -1,0 +1,28 @@
+===== NIGHT RUN START Fri 03/27/2026 16:32:52.73 ===== 
+INCREMENTAL INGEST: 2026-03-21 -> 2026-03-27
+[2026-03-21] done: inserted_games=0 team_rows=0 skipped=10 failed=0
+[2026-03-22] done: inserted_games=14 team_rows=28 skipped=10 failed=0
+[2026-03-23] no games
+[2026-03-24] done: inserted_games=16 team_rows=32 skipped=10 failed=0
+[2026-03-25] done: inserted_games=18 team_rows=36 skipped=10 failed=0
+[2026-03-26] done: inserted_games=22 team_rows=44 skipped=10 failed=0
+[2026-03-27] done: inserted_games=22 team_rows=44 skipped=10 failed=0
+===================================
+DONE incremental ingest 2026-03-21 -> 2026-03-27
+Days with games: 6
+Inserted games=22, team_rows=44
+Skipped existing games=10
+Failed games=0
+===================================
+Pulled events: 20
+Inserted FanDuel spreads rows: 20
+pulled_at_utc: 2026-03-27T20:33:18Z
+===================================
+GRADE RECOMMENDATIONS
+Graded at: 2026-03-27T20:33:18Z
+Matched game_id this run: 14
+Newly graded this run: 14
+Total graded bets: 583 W-L-P: 305 - 278 - 0 Units: 24.2757
+Still-ungraded qualifying bets: 52
+===================================
+===== NIGHT RUN END Fri 03/27/2026 16:33:19.23 ===== 
